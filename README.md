@@ -162,9 +162,8 @@ boundary/tie-breaking behavior, `.ctxpackrc` parsing, dependency-graph
 propagation (including cyclic-import safety), and full subprocess-level
 integration tests that exercise the real bash → Python pipeline end to end.
 
-## Roadmap (round three)
+---
 
-- [ ] AST-based import resolution instead of regex, for fewer edge-case misses
-- [ ] Config discovery up the directory tree (like `.eslintrc` resolution)
-- [ ] `--json` output mode for piping into other tooling
-- [ ] Parallel `.gitignore` ingestion for very large monorepos
+### For more detailed explanation checkout this file
+
+[Google drive file](https://drive.google.com/file/d/12Jo9mIFITLlfheCk4ZSa4jYvx8PinLqv/view?usp=sharing)
