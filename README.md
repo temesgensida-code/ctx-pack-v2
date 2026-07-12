@@ -151,6 +151,6 @@ dependency-free ANSI progress bar — the tool never hard-requires it.
 
 ---
 
-### For more detailed explanation checkout this file
+# For more detailed explanation checkout this file
 
 [Google drive file](https://drive.google.com/file/d/12Jo9mIFITLlfheCk4ZSa4jYvx8PinLqv/view?usp=sharing)
