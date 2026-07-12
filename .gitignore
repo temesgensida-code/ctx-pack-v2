@@ -1,0 +1,12 @@
+.venv
+.pytest_cache
+_pycache__
+pytest.ini
+../../pytest.ini
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/

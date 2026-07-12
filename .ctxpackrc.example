@@ -1,0 +1,15 @@
+# .ctxpackrc — configurable priority rules for ctx-pack
+#
+# Lower tier number = packed earlier when a --budget is tight.
+# Syntax: "<tier>: <space-separated glob patterns>"
+#         "default: <tier>"  sets the fallback tier for anything unmatched
+#
+# Drop this file at your project root (or pass --config path/to/file) to
+# override the built-in defaults below.
+
+0: *.py *.rs *.go *.ts *.tsx *.js *.jsx *.java *.kt *.c *.cpp *.h *.hpp *.rb *.php
+1: *.json *.yml *.yaml *.toml *.ini *.cfg
+2: *.md *.rst *.txt
+3: *.lock *.log *.csv *.tsv
+
+default: 1
