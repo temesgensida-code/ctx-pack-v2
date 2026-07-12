@@ -149,19 +149,6 @@ included/skipped/dropped counts, dependency-boost count, token usage). If
 `rich` isn't available, everything falls back automatically to a
 dependency-free ANSI progress bar — the tool never hard-requires it.
 
-## Tests
-
-```bash
-pip install -r src/requirements.txt
-pytest
-```
-
-66 tests across 6 files: secret-pattern coverage (one test per pattern type
-plus false-positive checks), binary detection edge cases, budget
-boundary/tie-breaking behavior, `.ctxpackrc` parsing, dependency-graph
-propagation (including cyclic-import safety), and full subprocess-level
-integration tests that exercise the real bash → Python pipeline end to end.
-
 ---
 
 ### For more detailed explanation checkout this file
